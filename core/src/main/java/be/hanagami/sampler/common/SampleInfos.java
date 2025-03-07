@@ -12,6 +12,7 @@ import be.hanagami.sampler.GdxReflectionSample;
 import be.hanagami.sampler.InputListeningSample;
 import be.hanagami.sampler.InputPollingSample;
 import be.hanagami.sampler.OrthographicCameraSample;
+import be.hanagami.sampler.ShapeRendererSample;
 import be.hanagami.sampler.SpriteBatchSample;
 import be.hanagami.sampler.ViewportSample;
 
@@ -29,7 +30,8 @@ public class SampleInfos {
         InputPollingSample.SAMPLE_INFO,
         OrthographicCameraSample.SAMPLE_INFO,
         ViewportSample.SAMPLE_INFO,
-        SpriteBatchSample.SAMPLE_INFO
+        SpriteBatchSample.SAMPLE_INFO,
+        ShapeRendererSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
