@@ -3,17 +3,18 @@ package be.hanagami.sampler.lwjgl3;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 
-import be.hanagami.sampler.ApplicationListenerSample;
+import be.hanagami.sampler.SpriteBatchSample;
+import be.hanagami.sampler.ViewportSample;
 
 /** Launches the desktop (LWJGL3) application. */
-public class DesktopLauncherApplicationListener {
+public class DesktopLauncherSpriteBatch {
     public static void main(String[] args) {
         if (StartupHelper.startNewJvmIfRequired()) return; // This handles macOS support and helps on Windows.
         createApplication();
     }
 
     private static Lwjgl3Application createApplication() {
-        return new Lwjgl3Application(new ApplicationListenerSample(), getDefaultConfiguration());
+        return new Lwjgl3Application(new SpriteBatchSample(), getDefaultConfiguration());
     }
 
     private static Lwjgl3ApplicationConfiguration getDefaultConfiguration() {

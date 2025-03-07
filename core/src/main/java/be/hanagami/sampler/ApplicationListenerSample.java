@@ -9,9 +9,13 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Logger;
 import com.badlogic.gdx.utils.ScreenUtils;
 
-/** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
-public class ApplicationListenerSample implements ApplicationListener {
+import be.hanagami.sampler.common.SampleBase;
+import be.hanagami.sampler.common.SampleInfo;
 
+/** {@link com.badlogic.gdx.ApplicationListener} implementation shared by all platforms. */
+public class ApplicationListenerSample extends SampleBase {
+
+    public static final SampleInfo SAMPLE_INFO = new SampleInfo(ApplicationListenerSample.class);
     private static final Logger log = new Logger(ApplicationListenerSample.class.getName(), Logger.DEBUG);
 
     private boolean renderInterrupted = true;
