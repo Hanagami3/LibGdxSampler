@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 import be.hanagami.sampler.ApplicationListenerSample;
+import be.hanagami.sampler.AssetManagerSample;
 import be.hanagami.sampler.BitMapFontSample;
 import be.hanagami.sampler.GdxGeneratedSample;
 import be.hanagami.sampler.GdxModuleInfoSample;
@@ -35,7 +36,8 @@ public class SampleInfos {
         SpriteBatchSample.SAMPLE_INFO,
         ShapeRendererSample.SAMPLE_INFO,
         BitMapFontSample.SAMPLE_INFO,
-        PoolingSample.SAMPLE_INFO
+        PoolingSample.SAMPLE_INFO,
+        AssetManagerSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
