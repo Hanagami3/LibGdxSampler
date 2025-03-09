@@ -13,6 +13,7 @@ import be.hanagami.sampler.GdxReflectionSample;
 import be.hanagami.sampler.InputListeningSample;
 import be.hanagami.sampler.InputPollingSample;
 import be.hanagami.sampler.OrthographicCameraSample;
+import be.hanagami.sampler.PoolingSample;
 import be.hanagami.sampler.ShapeRendererSample;
 import be.hanagami.sampler.SpriteBatchSample;
 import be.hanagami.sampler.ViewportSample;
@@ -33,7 +34,8 @@ public class SampleInfos {
         ViewportSample.SAMPLE_INFO,
         SpriteBatchSample.SAMPLE_INFO,
         ShapeRendererSample.SAMPLE_INFO,
-        BitMapFontSample.SAMPLE_INFO
+        BitMapFontSample.SAMPLE_INFO,
+        PoolingSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
