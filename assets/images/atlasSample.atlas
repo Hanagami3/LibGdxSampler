@@ -1,0 +1,33 @@
+atlasSample.png
+size: 1870, 920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background-blue
+  rotate: false
+  xy: 0, 0
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+character
+  rotate: false
+  xy: 1280, 0
+  size: 590, 522
+  orig: 590, 522
+  offset: 0, 0
+  index: -1
+circle-green
+  rotate: false
+  xy: 0, 720
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+circle-red
+  rotate: false
+  xy: 200, 720
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

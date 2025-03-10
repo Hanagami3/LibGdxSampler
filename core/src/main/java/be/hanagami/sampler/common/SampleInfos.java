@@ -17,6 +17,7 @@ import be.hanagami.sampler.OrthographicCameraSample;
 import be.hanagami.sampler.PoolingSample;
 import be.hanagami.sampler.ShapeRendererSample;
 import be.hanagami.sampler.SpriteBatchSample;
+import be.hanagami.sampler.TextureAtlasSample;
 import be.hanagami.sampler.ViewportSample;
 
 /**
@@ -37,7 +38,8 @@ public class SampleInfos {
         ShapeRendererSample.SAMPLE_INFO,
         BitMapFontSample.SAMPLE_INFO,
         PoolingSample.SAMPLE_INFO,
-        AssetManagerSample.SAMPLE_INFO
+        AssetManagerSample.SAMPLE_INFO,
+        TextureAtlasSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
