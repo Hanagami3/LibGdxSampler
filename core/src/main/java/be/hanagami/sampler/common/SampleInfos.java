@@ -5,9 +5,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import be.hanagami.sampler.ActionsSample;
 import be.hanagami.sampler.ApplicationListenerSample;
 import be.hanagami.sampler.AssetManagerSample;
 import be.hanagami.sampler.BitMapFontSample;
+import be.hanagami.sampler.CustomActorSample;
 import be.hanagami.sampler.GdxGeneratedSample;
 import be.hanagami.sampler.GdxModuleInfoSample;
 import be.hanagami.sampler.GdxReflectionSample;
@@ -17,6 +19,7 @@ import be.hanagami.sampler.OrthographicCameraSample;
 import be.hanagami.sampler.PoolingSample;
 import be.hanagami.sampler.ShapeRendererSample;
 import be.hanagami.sampler.SpriteBatchSample;
+import be.hanagami.sampler.TableSample;
 import be.hanagami.sampler.TextureAtlasSample;
 import be.hanagami.sampler.ViewportSample;
 
@@ -39,7 +42,10 @@ public class SampleInfos {
         BitMapFontSample.SAMPLE_INFO,
         PoolingSample.SAMPLE_INFO,
         AssetManagerSample.SAMPLE_INFO,
-        TextureAtlasSample.SAMPLE_INFO
+        TextureAtlasSample.SAMPLE_INFO,
+        CustomActorSample.SAMPLE_INFO,
+        ActionsSample.SAMPLE_INFO,
+        TableSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
