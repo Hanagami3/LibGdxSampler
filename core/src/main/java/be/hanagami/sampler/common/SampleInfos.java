@@ -18,6 +18,7 @@ import be.hanagami.sampler.InputPollingSample;
 import be.hanagami.sampler.OrthographicCameraSample;
 import be.hanagami.sampler.PoolingSample;
 import be.hanagami.sampler.ShapeRendererSample;
+import be.hanagami.sampler.SkinSample;
 import be.hanagami.sampler.SpriteBatchSample;
 import be.hanagami.sampler.TableSample;
 import be.hanagami.sampler.TextureAtlasSample;
@@ -45,7 +46,8 @@ public class SampleInfos {
         TextureAtlasSample.SAMPLE_INFO,
         CustomActorSample.SAMPLE_INFO,
         ActionsSample.SAMPLE_INFO,
-        TableSample.SAMPLE_INFO
+        TableSample.SAMPLE_INFO,
+        SkinSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {

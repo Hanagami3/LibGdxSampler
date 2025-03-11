@@ -22,7 +22,7 @@ import be.hanagami.sampler.utils.GdxUtils;
 
 public class ActionsSample extends SampleBase {
 
-    private static final Logger log = new Logger (CustomActorSample.class.getName(), Logger.DEBUG);
+    private static final Logger log = new Logger (ActionsSample.class.getName(), Logger.DEBUG);
 
     public static final SampleInfo SAMPLE_INFO = new SampleInfo(CustomActorSample.class);
 
