@@ -7,6 +7,7 @@ import java.util.List;
 
 import be.hanagami.sampler.ActionsSample;
 import be.hanagami.sampler.ApplicationListenerSample;
+import be.hanagami.sampler.AshleyEngineSample;
 import be.hanagami.sampler.AssetManagerSample;
 import be.hanagami.sampler.BitMapFontSample;
 import be.hanagami.sampler.CustomActorSample;
@@ -47,7 +48,8 @@ public class SampleInfos {
         CustomActorSample.SAMPLE_INFO,
         ActionsSample.SAMPLE_INFO,
         TableSample.SAMPLE_INFO,
-        SkinSample.SAMPLE_INFO
+        SkinSample.SAMPLE_INFO,
+        AshleyEngineSample.SAMPLE_INFO
     );
 
     public static List<String> getSampleNames() {
